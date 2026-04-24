@@ -14,7 +14,7 @@ import {
 } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
-const APK_LINK = "https://github.com/sushyamal/gt-app/releases/download/v1.0/GT.Earn.apk";
+const APK_LINK = "https://github.com/sushyamal/gt-earn-landing-page/releases/download/v1.0/gt-earn.apk";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
