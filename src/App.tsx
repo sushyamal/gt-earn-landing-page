@@ -175,10 +175,9 @@ export default function App() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 }}
-                className="text-6xl md:text-8xl font-display font-black text-slate-900 mb-6 leading-[1.2] tracking-normal"
+                className="text-5xl md:text-8xl font-display font-black text-slate-900 mb-8 leading-[1.3] tracking-normal"
               >
-                Work Today, <br />
-                <span className="text-gradient-orange">Earn Tomorrow</span>
+                <span className="text-gradient-orange block py-2">Your Effort, Your Income</span>
               </motion.h1>
 
               <motion.p
@@ -433,7 +432,7 @@ export default function App() {
                 <span className="text-xl font-display font-bold text-slate-900 tracking-tight">GT EARN</span>
               </div>
               <p className="text-slate-500 text-sm leading-relaxed">
-                Connect with the world's leading brands through simple micro-tasks. We ensure trust, transparency, and timely payments for every earner.
+                Connect with the world's leading brands through simple micro-tasks. We ensure trust, transparency, and timely payments for every earner. Your Effort, Your Income.
               </p>
             </div>
             
